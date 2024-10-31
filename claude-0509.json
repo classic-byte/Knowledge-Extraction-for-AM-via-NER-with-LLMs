@@ -1,0 +1,5721 @@
+[
+  {
+    "text": "Three-dimensional (3D) printing is undergoing a remarkable evolution which is leading to its exponentially growing use. It was initially used to make moulds or prototypes, however, its use expanded due to its accurate and reproducible design capabilities in a range of materials. This allowed faster fabrication of prototypes in a range of sizes, styles, materials and colours. 3D printing is now accessible to the public and a basic fused deposition modelling (FDM) printer can be easily bought at a shopping mall.",
+    "id": 1,
+    "annotator": 1,
+    "annotation_id": 20,
+    "created_at": "2024-04-11T15:44:59.290344Z",
+    "updated_at": "2024-04-11T15:44:59.290344Z",
+    "lead_time": 1.548
+  },
+  {
+    "text": "Today anyone can design prototypes and print them in their own home and this demand has further accelerated the advancement of multiple 3D printing techniques. Of all the existing AM techniques, FDM, direct printing, injection printing, selective laser sintering and stereolithography are some of the most popular ones that are gaining significant momentum. There are several key benefits that AM offers over traditional manufacturing including cost, speed, quality, innovation\/transformation, and impact as summarised by Attaran. AM enables and facilitates production of moderate to mass quantities of products that can be customised individually and it is a powerful tool to reduce complexity in the supply chain.",
+    "id": 2,
+    "annotator": 1,
+    "annotation_id": 21,
+    "created_at": "2024-04-11T15:45:03.162127Z",
+    "updated_at": "2024-04-11T15:45:03.162127Z",
+    "lead_time": 1.107
+  },
+  {
+    "text": "FDM is the AM technology that exhibits the greatest limitations hindering mass production due to production times and costs [11]. Nevertheless, the capacity of FDM to enable rapid prototyping and on-demand manufacturing are key advantages the technique brings over traditional manufacturing. Furthermore, additive manufacturing techniques such as FDM are at the forefront of enabling redistributed manufacturing, which is critical in reducing the carbon footprint and enabling smart manufacturing approaches of the future.",
+    "id": 3,
+    "label": [
+      {
+        "start": 97,
+        "end": 113,
+        "text": "production times",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 174,
+        "end": 191,
+        "text": "rapid prototyping",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 196,
+        "end": 219,
+        "text": "on-demand manufacturing",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 384,
+        "end": 411,
+        "text": "redistributed manufacturing",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 118,
+        "end": 123,
+        "text": "costs",
+        "labels": [
+          "MET"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 19,
+    "created_at": "2024-04-11T15:44:35.351093Z",
+    "updated_at": "2024-04-23T15:28:55.106958Z",
+    "lead_time": 8218.954999999998
+  },
+  {
+    "text": "FDM, also referred to as fused filament fabrication (FFF) was invented over 20 years ago. The acronyms FDM and FFF are both in common use within academic literature. After stereolithography, FDM is the second most commonly used 3D printing technique [12]. This technique is controlled by a rapid prototype (RP) computer, that can produce parts made of porous materials through the layer-by-layer manufacturing method [13]. FDM generally involves the generation of a digital design using a 3D design software, which is subsequently sliced into a series of laminations or layers. This layer data is communicated to the printer which reproduces the design layer-by-layer until the complete model is obtained. The mechanical properties of FDM printed parts depends on the material, the structural parameters (i.e. rasters angle, infill density, printing orientation, and stacking sequence), and manufacturing variables (i.e. printing speed, extrusion temperature and rate, layer time, nozzle transverse speed, and bed temperature) [14-17]. FDM RP has certain advantages such as control of the matrix architecture (shape, size, branching, geometry, interconnectivity, and orientation), producing a structure that can vary in design, and composition according to the material used. However, much research is being carried out to improve the printing quality control [18,19].",
+    "id": 4,
+    "label": [
+      {
+        "start": 290,
+        "end": 319,
+        "text": "rapid prototype (RP) computer",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 466,
+        "end": 480,
+        "text": "digital design",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 489,
+        "end": 507,
+        "text": "3D design software",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 617,
+        "end": 624,
+        "text": "printer",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 710,
+        "end": 731,
+        "text": "mechanical properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 782,
+        "end": 803,
+        "text": "structural parameters",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 810,
+        "end": 823,
+        "text": "rasters angle",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 825,
+        "end": 839,
+        "text": "infill density",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 841,
+        "end": 861,
+        "text": "printing orientation",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 867,
+        "end": 884,
+        "text": "stacking sequence",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 891,
+        "end": 914,
+        "text": "manufacturing variables",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 921,
+        "end": 935,
+        "text": "printing speed",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 969,
+        "end": 979,
+        "text": "layer time",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 981,
+        "end": 1004,
+        "text": "nozzle transverse speed",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1010,
+        "end": 1025,
+        "text": "bed temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 937,
+        "end": 958,
+        "text": "extrusion temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 963,
+        "end": 967,
+        "text": "rate",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 352,
+        "end": 368,
+        "text": "porous materials",
+        "labels": [
+          "MAT"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 22,
+    "created_at": "2024-04-11T16:06:40.910670Z",
+    "updated_at": "2024-04-25T01:23:11.625879Z",
+    "lead_time": 523.699
+  },
+  {
+    "text": "The increasing number of new developments and applications achieved by FDM in recent years demonstrates the great potential of this AM technology. During the COVID-19 pandemic, FDM was used as an alternative production method to produce personal protective equipment (PPE) such as face masks and respirator face shields [20-22]. A significant number of new types of materials designed for FDM have been developed between 2020 and 2021 including new fibre-reinforced composites with superior mechanical properties [23-28], advanced polymer-based nanocomposites prepared with the addition of carbon nanomaterials [29-32] and many other types of polymer-based composites [33-36] with enhanced physical properties. New ceramic-based materials made of polymer and ceramic powder such as Al2O3 [37], hydroxyapatite [38] or dense zirconia[39] have been developed for FDM.",
+    "id": 5,
+    "label": [
+      {
+        "start": 237,
+        "end": 272,
+        "text": "personal protective equipment (PPE)",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 281,
+        "end": 291,
+        "text": "face masks",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 296,
+        "end": 319,
+        "text": "respirator face shields",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 449,
+        "end": 476,
+        "text": "fibre-reinforced composites",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 531,
+        "end": 559,
+        "text": "polymer-based nanocomposites",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 590,
+        "end": 610,
+        "text": "carbon nanomaterials",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 643,
+        "end": 667,
+        "text": "polymer-based composites",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 715,
+        "end": 738,
+        "text": "ceramic-based materials",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 747,
+        "end": 754,
+        "text": "polymer",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 759,
+        "end": 773,
+        "text": "ceramic powder",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 782,
+        "end": 787,
+        "text": "Al2O3",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 794,
+        "end": 808,
+        "text": "hydroxyapatite",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 817,
+        "end": 831,
+        "text": "dense zirconia",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 690,
+        "end": 709,
+        "text": "physical properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 491,
+        "end": 512,
+        "text": "mechanical properties",
+        "labels": [
+          "MET"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 23,
+    "created_at": "2024-04-11T16:12:32.527284Z",
+    "updated_at": "2024-04-25T02:55:10.800889Z",
+    "lead_time": 349.31699999999995
+  },
+  {
+    "text": "In biomedicine, biocompatible hydroxypropyl-methylcellulose- reinforced polylactide composites [46] and new bioinspired structures have been successfully printed by FDM [38,47]. Different types of PLA scaffolds [48-50] and non-toxic and biocompatible filaments of polylactic PLA-biphasic calcium phosphates composites obtained by hot melt extrusion (HME) were also shown to be suitable for FDM of scaffolds in the field of tissue engineering [51]. 3D-printed PLA-stainless-steel polymeric composites have been fabricated for biomedical applications [52]. Multi-colour extrusion FDM has been used as a low-cost 3D printing method for anatomical prostate cancer models [53]. An acrylonitrile butadiene styrene (ABS) canine tibia model [54] and complete dentures have been fabricated by FDM [55].",
+    "id": 6,
+    "label": [
+      {
+        "start": 3,
+        "end": 14,
+        "text": "biomedicine",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 30,
+        "end": 94,
+        "text": "hydroxypropyl-methylcellulose- reinforced polylactide composites",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 197,
+        "end": 200,
+        "text": "PLA",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 201,
+        "end": 210,
+        "text": "scaffolds",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 264,
+        "end": 317,
+        "text": "polylactic PLA-biphasic calcium phosphates composites",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 423,
+        "end": 441,
+        "text": "tissue engineering",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 397,
+        "end": 406,
+        "text": "scaffolds",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 459,
+        "end": 499,
+        "text": "PLA-stainless-steel polymeric composites",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 525,
+        "end": 548,
+        "text": "biomedical applications",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 633,
+        "end": 666,
+        "text": "anatomical prostate cancer models",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 676,
+        "end": 713,
+        "text": "acrylonitrile butadiene styrene (ABS)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 714,
+        "end": 732,
+        "text": "canine tibia model",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 742,
+        "end": 759,
+        "text": "complete dentures",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 108,
+        "end": 130,
+        "text": "bioinspired structures",
+        "labels": [
+          "DES"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 24,
+    "created_at": "2024-04-11T16:18:28.969315Z",
+    "updated_at": "2024-04-25T01:27:06.571988Z",
+    "lead_time": 428.202
+  },
+  {
+    "text": "The great potential of this AM technology has vastly increased its number of industrial applications. For example, an automotive brake pedal has recently been produced with metal-polymer filaments [62]. FDM has also been proposed as a viable construction technology for habitation on Mars [63] and for the fabrication of microelectrodes and multi-electrode probes [64]. Shock-resistant and affordable polypropylene (PP) dipping chambers suitable for synthesis or analytical purposes [65] and PLA dielectric substrates for microstrip patch antenna [66] have also been fabricated by FDM.",
+    "id": 7,
+    "label": [
+      {
+        "start": 118,
+        "end": 140,
+        "text": "automotive brake pedal",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 173,
+        "end": 196,
+        "text": "metal-polymer filaments",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 321,
+        "end": 336,
+        "text": "microelectrodes",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 341,
+        "end": 363,
+        "text": "multi-electrode probes",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 420,
+        "end": 436,
+        "text": "dipping chambers",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 401,
+        "end": 419,
+        "text": "polypropylene (PP)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 492,
+        "end": 495,
+        "text": "PLA",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 496,
+        "end": 546,
+        "text": "dielectric substrates for microstrip patch antenna",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 242,
+        "end": 288,
+        "text": "construction technology for habitation on Mars",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 100,
+        "text": "industrial applications",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 370,
+        "end": 385,
+        "text": "Shock-resistant",
+        "labels": [
+          "MET"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 25,
+    "created_at": "2024-04-11T18:23:07.435599Z",
+    "updated_at": "2024-05-02T19:19:10.808629Z",
+    "lead_time": 7712.482
+  },
+  {
+    "text": "Many innovative FDM approaches have also been reported very recently such as, the manufacture of hierarchical porous polyetherimide (PEI) parts via an in-situ foaming FDM technology [67] and the manufacturing route combining FDM and laser writing for the manufacturing of multifunctional polyamide\/carbon fibre composites [68].",
+    "id": 8,
+    "label": [
+      {
+        "start": 117,
+        "end": 137,
+        "text": "polyetherimide (PEI)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 288,
+        "end": 321,
+        "text": "polyamide\/carbon fibre composites",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 116,
+        "text": "hierarchical porous",
+        "labels": [
+          "DES"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 26,
+    "created_at": "2024-04-11T18:58:51.879752Z",
+    "updated_at": "2024-04-25T01:29:38.230896Z",
+    "lead_time": 2196.1429999999996
+  },
+  {
+    "text": "The specifications necessary to be able to print the part in FDM, such as print speed, size of the print thread, temperature and layer height are selected in a slicer or slicing programme such as Slic3r and Cura. These programmes produce a file with .gcode format, which can be directly read by the printer to print the design [75]. The G-code is the most broadly used computer numerical control (CNC) programming language that is used in computer-aided manufacturing to control automated machine tools including 3D printers [76]. Fig. 1 shows a general summary of the FDM process.",
+    "id": 9,
+    "label": [
+      {
+        "start": 74,
+        "end": 85,
+        "text": "print speed",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 111,
+        "text": "size of the print thread",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 113,
+        "end": 124,
+        "text": "temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 141,
+        "text": "layer height",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 196,
+        "end": 202,
+        "text": "Slic3r",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 211,
+        "text": "Cura",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 299,
+        "end": 306,
+        "text": "printer",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 337,
+        "end": 343,
+        "text": "G-code",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 369,
+        "end": 422,
+        "text": "computer numerical control (CNC) programming language",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 160,
+        "end": 166,
+        "text": "slicer",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 170,
+        "end": 187,
+        "text": "slicing programme",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 219,
+        "end": 229,
+        "text": "programmes",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 250,
+        "end": 263,
+        "text": ".gcode format",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 439,
+        "end": 467,
+        "text": "computer-aided manufacturing",
+        "labels": [
+          "SOF"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 27,
+    "created_at": "2024-04-11T20:38:41.966513Z",
+    "updated_at": "2024-04-25T03:12:08.196644Z",
+    "lead_time": 1392.3429999999998
+  },
+  {
+    "text": "There are two main types of extruder setups found on FDM printers: the direct and the Bowden extruders [83]. The moving print assembly is composed of the hot-end and the nozzle in the direct extruder, and a motor pulls the filament off the spool and drives it directly into the hot-end. The Bowden extruder has a motor that pushes the filament from the spool through a tube connected to the hot-end and nozzle. The Bowden setup presents the advantage of significantly reducing the weight of the moving print assembly, which enables a faster and more enhanced move [84].",
+    "id": 10,
+    "label": [
+      {
+        "start": 53,
+        "end": 65,
+        "text": "FDM printers",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 102,
+        "text": "Bowden extruders",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "text": "extruder",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 184,
+        "end": 199,
+        "text": "direct extruder",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 170,
+        "end": 176,
+        "text": "nozzle",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 154,
+        "end": 161,
+        "text": "hot-end",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 212,
+        "text": "motor",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 240,
+        "end": 245,
+        "text": "spool",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 278,
+        "end": 285,
+        "text": "hot-end",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 291,
+        "end": 306,
+        "text": "Bowden extruder",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 313,
+        "end": 318,
+        "text": "motor",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 353,
+        "end": 358,
+        "text": "spool",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 369,
+        "end": 373,
+        "text": "tube",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 391,
+        "end": 398,
+        "text": "hot-end",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 403,
+        "end": 409,
+        "text": "nozzle",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 77,
+        "text": "direct",
+        "labels": [
+          "EQU"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 28,
+    "created_at": "2024-04-11T21:11:29.218852Z",
+    "updated_at": "2024-04-22T23:09:22.454153Z",
+    "lead_time": 2317.7340000000004
+  },
+  {
+    "text": "As a general scheme, the core principle of the FDM production method is simply to melt the raw material and facilitate the creation of new shapes. The material is made of a filament coil on a wheel that is driven into a temperature-controlled nozzle which heats it to a semiliquid. The nozzle accurately extrudes and guides the molten material to build a structural element layer by layer. This replicates the outlines of a layer that has been introduced into the FDM working system by the application programme. FDM begins with the virtual design of the part to be printed which is generated using a computer-aided design (CAD) software in a .stl format. Some of the most popular software packages used to produce this type of files are AutoCAD, FreeCAD, Autodesk Inventor, SolidWorks or Tinkercad. The .stl file is processed by a slicing or laminating programme which converts the design into printer- specific instructions so that the printer can understand the design. The .stl file is transformed into a .gcode file. The specifications necessary to be able to print the part, such as print speed, size of the print thread, temperature and layer height are selected in a slicer or slicing programme such as Slic3r and Cura.",
+    "id": 11,
+    "label": [
+      {
+        "start": 192,
+        "end": 197,
+        "text": "wheel",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 220,
+        "end": 249,
+        "text": "temperature-controlled nozzle",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 286,
+        "end": 292,
+        "text": "nozzle",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 173,
+        "end": 186,
+        "text": "filament coil",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 490,
+        "end": 511,
+        "text": "application programme",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 533,
+        "end": 547,
+        "text": "virtual design",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 601,
+        "end": 637,
+        "text": "computer-aided design (CAD) software",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 738,
+        "end": 745,
+        "text": "AutoCAD",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 747,
+        "end": 754,
+        "text": "FreeCAD",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 756,
+        "end": 773,
+        "text": "Autodesk Inventor",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 775,
+        "end": 785,
+        "text": "SolidWorks",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 789,
+        "end": 798,
+        "text": "Tinkercad",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 832,
+        "end": 863,
+        "text": "slicing or laminating programme",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 938,
+        "end": 945,
+        "text": "printer",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 1089,
+        "end": 1100,
+        "text": "print speed",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1102,
+        "end": 1126,
+        "text": "size of the print thread",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1128,
+        "end": 1139,
+        "text": "temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1144,
+        "end": 1156,
+        "text": "layer height",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1211,
+        "end": 1217,
+        "text": "Slic3r",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 1222,
+        "end": 1226,
+        "text": "Cura",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 643,
+        "end": 654,
+        "text": ".stl format",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 804,
+        "end": 813,
+        "text": ".stl file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 977,
+        "end": 986,
+        "text": ".stl file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 1009,
+        "end": 1020,
+        "text": ".gcode file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 1175,
+        "end": 1202,
+        "text": "slicer or slicing programme",
+        "labels": [
+          "SOF"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 29,
+    "created_at": "2024-04-11T21:45:28.540849Z",
+    "updated_at": "2024-04-25T01:37:21.058937Z",
+    "lead_time": 2278.6150000000002
+  },
+  {
+    "text": "Several tests can be performed to characterise the mechanical properties of FDM materials such as tensile test (ASTM D638), flexural test (ISO 178) and short-beam shear test (ASTM D2344M) [88], and there are many studies that demonstrate that changes in the printing parameters cause differences in the characteristics of the final 3D piece [89-95]. Thus, multi-factor coupling such as different printing temperatures, printing directions, printing paths, and layer thicknesses have been shown to influence the tensile strength, bending strength, crystallinity, and grain size of FDM printed parts [96]. The mechanical properties of the 3D printed pieces are limited by the weak interlamination bonding as well as the poor performance of raw filaments used [89]. Thus, temperature control can increase inter-layer bonding strength in FDM [97]. Printing parameters such as nozzle diameter, layer height, raster angle, and nozzle temperature have been shown to affect composite samples tensile strength, density, and production time [90]. FDM process parameters such as layer thickness, extruder temperature, filling structure, and occupancy rate can affect the mechanical properties in terms of tensile strength, elongation, and impact strength of 3D printed pieces [91]. Other important parameters to take into account are the infill and nozzle diameter [98]. These parameters affect the pore size and porosity of the FDM printed parts. Infill density has shown a considerable influence on the tensile strength and surface roughness of FDM printed parts [99,100]. Additionally, the size of the nozzle allows the extrusion of different thicknesses of materials [101]. The temperature and building orientation of the nozzle influences the relative density, flexural strength, tensile strength, breaking elongation and impact strength of the polymers [102]. Moreover, the layer thickness affects irreversible thermal strain and mechanical properties [103]. Recycling of FDM waste, which is nowadays fundamental in a circular economy perspective, can also change the mechanical properties of the pristine material [104]. FDM feedstock exists in the form of filament with an average diameter of 1.78 mm, although diameters as large as 3 mm can still be found [105]. The average diameter and its variance are important parameters that affect the extrusion process [106].",
+    "id": 12,
+    "label": [
+      {
+        "start": 112,
+        "end": 121,
+        "text": "ASTM D638",
+        "labels": [
+          "STAN"
+        ]
+      },
+      {
+        "start": 139,
+        "end": 146,
+        "text": "ISO 178",
+        "labels": [
+          "STAN"
+        ]
+      },
+      {
+        "start": 175,
+        "end": 186,
+        "text": "ASTM D2344M",
+        "labels": [
+          "STAN"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 72,
+        "text": "mechanical properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 396,
+        "end": 417,
+        "text": "printing temperatures",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 419,
+        "end": 438,
+        "text": "printing directions",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 440,
+        "end": 454,
+        "text": "printing paths",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 460,
+        "end": 477,
+        "text": "layer thicknesses",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 511,
+        "end": 527,
+        "text": "tensile strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 529,
+        "end": 545,
+        "text": "bending strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 547,
+        "end": 560,
+        "text": "crystallinity",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 566,
+        "end": 576,
+        "text": "grain size",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 608,
+        "end": 629,
+        "text": "mechanical properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 674,
+        "end": 702,
+        "text": "weak interlamination bonding",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 802,
+        "end": 830,
+        "text": "inter-layer bonding strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 872,
+        "end": 887,
+        "text": "nozzle diameter",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 889,
+        "end": 901,
+        "text": "layer height",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 903,
+        "end": 915,
+        "text": "raster angle",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 921,
+        "end": 939,
+        "text": "nozzle temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 984,
+        "end": 1000,
+        "text": "tensile strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1002,
+        "end": 1009,
+        "text": "density",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1015,
+        "end": 1030,
+        "text": "production time",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1068,
+        "end": 1083,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1085,
+        "end": 1105,
+        "text": "extruder temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1107,
+        "end": 1124,
+        "text": "filling structure",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1130,
+        "end": 1144,
+        "text": "occupancy rate",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1160,
+        "end": 1181,
+        "text": "mechanical properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1194,
+        "end": 1210,
+        "text": "tensile strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1212,
+        "end": 1222,
+        "text": "elongation",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1228,
+        "end": 1243,
+        "text": "impact strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1327,
+        "end": 1333,
+        "text": "infill",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1338,
+        "end": 1353,
+        "text": "nozzle diameter",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1388,
+        "end": 1397,
+        "text": "pore size",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1402,
+        "end": 1410,
+        "text": "porosity",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1437,
+        "end": 1451,
+        "text": "Infill density",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1494,
+        "end": 1510,
+        "text": "tensile strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1515,
+        "end": 1532,
+        "text": "surface roughness",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1582,
+        "end": 1600,
+        "text": "size of the nozzle",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1671,
+        "end": 1682,
+        "text": "temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1687,
+        "end": 1707,
+        "text": "building orientation",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1715,
+        "end": 1721,
+        "text": "nozzle",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 1737,
+        "end": 1753,
+        "text": "relative density",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1755,
+        "end": 1772,
+        "text": "flexural strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1774,
+        "end": 1790,
+        "text": "tensile strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1792,
+        "end": 1811,
+        "text": "breaking elongation",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1816,
+        "end": 1831,
+        "text": "impact strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1839,
+        "end": 1847,
+        "text": "polymers",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 1869,
+        "end": 1884,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1925,
+        "end": 1946,
+        "text": "mechanical properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 2063,
+        "end": 2084,
+        "text": "mechanical properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 718,
+        "end": 751,
+        "text": "poor performance of raw filaments",
+        "labels": [
+          "PRO"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 30,
+    "created_at": "2024-04-11T22:13:59.271992Z",
+    "updated_at": "2024-04-25T20:06:54.258931Z",
+    "lead_time": 1903.056
+  },
+  {
+    "text": "In order to understand how a 3D piece can be printed from a roll of polymer-based filament, it is necessary to understand the thermal behaviour of the polymer-based filament when the temperature reaches the glass transition temperature (Tg) or the melting temperature (Tm). Thus, Tg is the temperature at which the polymer transition from a crystalline to a rubbery state occurs [108], while Tm is the temperature at which the polymer transition from a solid to a fluid state occurs [109]. When the temperature of the FDM extruder reaches the Tm, the polymer-based material can be printed.",
+    "id": 13,
+    "label": [
+      {
+        "start": 248,
+        "end": 272,
+        "text": "melting temperature (Tm)",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 543,
+        "end": 545,
+        "text": "Tm",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 551,
+        "end": 573,
+        "text": "polymer-based material",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 392,
+        "end": 394,
+        "text": "Tm",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 518,
+        "end": 530,
+        "text": "FDM extruder",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 151,
+        "end": 173,
+        "text": "polymer-based filament",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 90,
+        "text": "polymer-based filament",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 427,
+        "end": 434,
+        "text": "polymer",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 499,
+        "end": 510,
+        "text": "temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 402,
+        "end": 413,
+        "text": "temperature",
+        "labels": [
+          "PAR"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 31,
+    "created_at": "2024-04-11T22:54:41.772433Z",
+    "updated_at": "2024-05-02T19:15:12.727861Z",
+    "lead_time": 5910.261999999999
+  },
+  {
+    "text": "Chemical post-processing procedures consist of paintings, coatings, heating and\/or vapour deposition [190-193]. Thus, for example, novel post-processing techniques of FDM pieces to improve surface roughness and reduce heat absorption for high-temperature applications were developed by chemical treatment, drying and aluminium coating [194]. Other authors have proposed several economic and rapid strategies of chemical treatments with acetone-based solvents to modify printed ABS pieces to significantly improve their surface finish with minimal variations in dimensional accuracy [195,196]. Surface treatments with dichloromethane have been proposed to eliminate printing lines on polycarbonate components fabricated by FDM [197]. However, it is of note that the application of chemical post-processing methods to improve the surface finish of printed pieces obtained by FDM can modify thermal properties [191]. Mechanical their degradation and post-processing methods mainly include machining [198], abrasives [199], barrel finishing [200], sanding [201] and vibratory processes [190]. A novel post-processing tool, namely thermally assisted finishing tool (TAFT) has been designed and developed for thermally assisted finishing (TAF) of FDM built parts on CNC milling machines to improve their surface finish conditions [202]. The surface quality of FDM parts has also been enhanced by subjecting them to acetone chemical vapour smoothing laser-assisted finishing post-processing methods [189]. Improvements in surface roughness and dimensional accuracy of biomedical implants have been achieved by combining FDM, CVP and investment casting, which is a renowned process for producing dimensionally accurate and highly finished casts [203]. Partial dentures have been prepared with a synergistic combination of FDM assisted CVS patterns and conventional dental casting [204]. Very recently, laser polishing was shown to improve the surface quality, mechanical and thermal properties of FDM aluminium\/PLA composites [205]. These examples highlight the potential of post-processing techniques to improve one of the most important limitations of FDM, the poor surface quality or characteristic texture.",
+    "id": 14,
+    "label": [
+      {
+        "start": 189,
+        "end": 206,
+        "text": "surface roughness",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 286,
+        "end": 304,
+        "text": "chemical treatment",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 306,
+        "end": 312,
+        "text": "drying",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 317,
+        "end": 334,
+        "text": "aluminium coating",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 24,
+        "text": "Chemical post-processing",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 56,
+        "text": "paintings",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "text": "coatings",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 75,
+        "text": "heating",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 100,
+        "text": "vapour deposition",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 218,
+        "end": 233,
+        "text": "heat absorption",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 411,
+        "end": 430,
+        "text": "chemical treatments",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 477,
+        "end": 480,
+        "text": "ABS",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 519,
+        "end": 533,
+        "text": "surface finish",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 561,
+        "end": 581,
+        "text": "dimensional accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 593,
+        "end": 611,
+        "text": "Surface treatments",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 683,
+        "end": 696,
+        "text": "polycarbonate",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 828,
+        "end": 842,
+        "text": "surface finish",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 888,
+        "end": 906,
+        "text": "thermal properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 986,
+        "end": 995,
+        "text": "machining",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1003,
+        "end": 1012,
+        "text": "abrasives",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1020,
+        "end": 1036,
+        "text": "barrel finishing",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1044,
+        "end": 1051,
+        "text": "sanding",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1062,
+        "end": 1081,
+        "text": "vibratory processes",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1203,
+        "end": 1237,
+        "text": "thermally assisted finishing (TAF)",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1298,
+        "end": 1323,
+        "text": "surface finish conditions",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1335,
+        "end": 1350,
+        "text": "surface quality",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1515,
+        "end": 1532,
+        "text": "surface roughness",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1537,
+        "end": 1557,
+        "text": "dimensional accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1561,
+        "end": 1580,
+        "text": "biomedical implants",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 1744,
+        "end": 1760,
+        "text": "Partial dentures",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 1894,
+        "end": 1909,
+        "text": "laser polishing",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1935,
+        "end": 1950,
+        "text": "surface quality",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1993,
+        "end": 2017,
+        "text": "aluminium\/PLA composites",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 2179,
+        "end": 2201,
+        "text": "characteristic texture",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 238,
+        "end": 267,
+        "text": "high-temperature applications",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 2155,
+        "end": 2175,
+        "text": "poor surface quality",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 1952,
+        "end": 1962,
+        "text": "mechanical",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1967,
+        "end": 1985,
+        "text": "thermal properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1409,
+        "end": 1442,
+        "text": "acetone chemical vapour smoothing",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1443,
+        "end": 1467,
+        "text": "laser-assisted finishing",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1827,
+        "end": 1830,
+        "text": "CVS",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1618,
+        "end": 1621,
+        "text": "CVP",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1626,
+        "end": 1644,
+        "text": "investment casting",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 665,
+        "end": 679,
+        "text": "printing lines",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 780,
+        "end": 812,
+        "text": "chemical post-processing methods",
+        "labels": [
+          "POST"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 32,
+    "created_at": "2024-04-11T23:47:29.384947Z",
+    "updated_at": "2024-04-23T20:20:46.159244Z",
+    "lead_time": 18331.251999999997
+  },
+  {
+    "text": "Experimental results have evidenced how material modifications have a strong impact on rheological behaviour, which has a key role in printability [126,187]. Thus, the printability of non-commonly used 3D printing filament materials such as PP can be improved by talc filling [187]. Printability and thus the quality of 3D printed pieces can change according to the PLA colour used [188]. Cuiffo et al. have shown that the FDM printing process results in chemical and structural changes in PLA [164]. Several materials with excellent mechanical properties such as ABS, PC, PEEK and HIPS need high printing temperatures and a hot bed [110,147,160]. Therefore, it is important to be aware of potential issues related to material transformations during printing, as well as the somewhat uncertain nature of commercial filaments [164].",
+    "id": 15,
+    "label": [
+      {
+        "start": 490,
+        "end": 493,
+        "text": "PLA",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 564,
+        "end": 567,
+        "text": "ABS",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 569,
+        "end": 571,
+        "text": "PC",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 573,
+        "end": 577,
+        "text": "PEEK",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 582,
+        "end": 586,
+        "text": "HIPS",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 597,
+        "end": 618,
+        "text": "printing temperatures",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 625,
+        "end": 632,
+        "text": "hot bed",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 700,
+        "end": 758,
+        "text": "issues related to material transformations during printing",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 283,
+        "end": 295,
+        "text": "Printability",
+        "labels": [
+          "MET"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 33,
+    "created_at": "2024-04-12T01:07:39.535965Z",
+    "updated_at": "2024-05-02T18:20:11.660553Z",
+    "lead_time": 10222.11
+  },
+  {
+    "text": "Research has been carried out to identify the factors affecting print quality and measures to reduce surface roughness by post-processing as an additional step to reach the finish required [189]. Thus, many post-processing methods to improve surface roughness in FDM parts have been investigated and applied, and can be categorised into two types - chemical and mechanical processes [190]. Chemical post-processing procedures consist of paintings, coatings, heating and\/or vapour deposition [190–193].",
+    "id": 16,
+    "label": [
+      {
+        "start": 101,
+        "end": 118,
+        "text": "surface roughness",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 242,
+        "end": 259,
+        "text": "surface roughness",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 390,
+        "end": 414,
+        "text": "Chemical post-processing",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 437,
+        "end": 446,
+        "text": "paintings",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 448,
+        "end": 456,
+        "text": "coatings",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 458,
+        "end": 465,
+        "text": "heating",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 473,
+        "end": 490,
+        "text": "vapour deposition",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 77,
+        "text": "print quality",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 349,
+        "end": 357,
+        "text": "chemical",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 362,
+        "end": 372,
+        "text": "mechanical",
+        "labels": [
+          "POST"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 34,
+    "created_at": "2024-04-12T01:11:28.259645Z",
+    "updated_at": "2024-05-02T18:19:42.850043Z",
+    "lead_time": 399.21000000000004
+  },
+  {
+    "text": "Although FDM was developed more than 20 years ago and its great advantages have been studied in this review, this technology still has several limitations. The primary disadvantage of FDM is that it is currently limited to processing polymer-based materials [206]. Another handicap is the low printing speed of FDM that results in a low rate of production of the print samples in comparison with other AM techniques [207]. The imperfections in the final 3D pieces such as defects and anisotropy, rough surface finish, variations in the dimensions of printed parts, and dependence on processes used are other notable challenges using FDM [208]. Similar to other AM techniques, the material properties of 3D printing parts using FDM depend on printing conditions (e. g., speed, power, temperature, process). The accuracy of FDM prints depends on different factors such as the nozzle diameter, the filament material properties and the processing parameters used [209-211]. As such the accuracy of the 3D printed parts is affected by the processing parameters during the printing process because they can affect shrinkage, bonding and warping during cooling, which subsequently affects part assemblies [212-216]. The requirement for significant post-processing to bring the printed parts to the desired surface quality is another aspect that need consideration while using FDM. This is due to the fixed nozzle and feed diameter resulting in the layer-by-layer patterns of a predetermined thickness that can obscure fine features in the part depending on their dimension. Lastly, in comparison to other techniques such as stereolithography (SLA), digital light processing (DLP) and selective laser melting (SLM), FDM is not yet suitable to be adopted for large mass market fabrication primarily due to their inconsistency in part and material quality. Therefore, FDM is more suitable for small to medium scale production of complex non-safety critical components.",
+    "id": 17,
+    "label": [
+      {
+        "start": 234,
+        "end": 257,
+        "text": "polymer-based materials",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 472,
+        "end": 479,
+        "text": "defects",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 484,
+        "end": 494,
+        "text": "anisotropy",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 496,
+        "end": 516,
+        "text": "rough surface finish",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 518,
+        "end": 546,
+        "text": "variations in the dimensions",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 769,
+        "end": 774,
+        "text": "speed",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 776,
+        "end": 781,
+        "text": "power",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 783,
+        "end": 794,
+        "text": "temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 874,
+        "end": 889,
+        "text": "nozzle diameter",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 895,
+        "end": 923,
+        "text": "filament material properties",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1131,
+        "end": 1138,
+        "text": "warping",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 1108,
+        "end": 1117,
+        "text": "shrinkage",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 1119,
+        "end": 1126,
+        "text": "bonding",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 1299,
+        "end": 1314,
+        "text": "surface quality",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 1511,
+        "end": 1524,
+        "text": "fine features",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 1883,
+        "end": 1957,
+        "text": "small to medium scale production of complex non-safety critical components",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 932,
+        "end": 953,
+        "text": "processing parameters",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1034,
+        "end": 1055,
+        "text": "processing parameters",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 1399,
+        "end": 1405,
+        "text": "nozzle",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 1410,
+        "end": 1423,
+        "text": "feed diameter",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 810,
+        "end": 818,
+        "text": "accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 982,
+        "end": 990,
+        "text": "accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 293,
+        "end": 307,
+        "text": "printing speed",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 337,
+        "end": 355,
+        "text": "rate of production",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 680,
+        "end": 699,
+        "text": "material properties",
+        "labels": [
+          "MET"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 35,
+    "created_at": "2024-04-14T16:54:18.087518Z",
+    "updated_at": "2024-04-25T19:31:41.552019Z",
+    "lead_time": 229948.527
+  },
+  {
+    "text": "FDM using filaments made of biocompatible polymers often show good mechanical performance and structural integrity making them suitable for broad a range of biomedical applications [230]. As such FDM has enabled numerous advances in medicine, especially in personalised medicine, where it has made possible customised treatments, prostheses, insoles and implants [2,124,145,217,218]. FDM is also ideal for manufacturing scaffolds that can act as an artificial extracellular matrix (ECM) in tissue engineering applications (Fig. 4).",
+    "id": 18,
+    "label": [
+      {
+        "start": 28,
+        "end": 50,
+        "text": "biocompatible polymers",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 89,
+        "text": "mechanical performance",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 114,
+        "text": "structural integrity",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 157,
+        "end": 180,
+        "text": "biomedical applications",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 233,
+        "end": 241,
+        "text": "medicine",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 257,
+        "end": 278,
+        "text": "personalised medicine",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 307,
+        "end": 328,
+        "text": "customised treatments",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 330,
+        "end": 340,
+        "text": "prostheses",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 342,
+        "end": 349,
+        "text": "insoles",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 354,
+        "end": 362,
+        "text": "implants",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 420,
+        "end": 429,
+        "text": "scaffolds",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 490,
+        "end": 521,
+        "text": "tissue engineering applications",
+        "labels": [
+          "APP"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 36,
+    "created_at": "2024-04-14T17:00:48.892720Z",
+    "updated_at": "2024-04-14T17:00:48.892720Z",
+    "lead_time": 140.769
+  },
+  {
+    "text": "FDM offers advantages by allowing precise control of scaffold architecture with respect to shape, size, branching, geometry, interconnectivity, and orientation, making it highly suitable for tissue engineering. The role of biomaterials here is to provide a 3D cell support that controls and guides localised tissue regeneration and provides potentially controllable cellular microenvironments similar to those in vivo [230,245]. Scaffolds are used as supports for the tissue growth of bone, cartilage, ligaments, skin, blood vessels, nerves and muscle [246]. Biodegradable scaffolds can be utilised to bioengineer entire organs by allowing the material to disintegrate as new tissue is generated [247]. Traditional scaffold fabrication methods do not have the ability to internal architecture and control scaffold porosity [248–251]. ",
+    "id": 19,
+    "label": [
+      {
+        "start": 191,
+        "end": 209,
+        "text": "tissue engineering",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 223,
+        "end": 235,
+        "text": "biomaterials",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 96,
+        "text": "shape",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 102,
+        "text": "size",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 104,
+        "end": 113,
+        "text": "branching",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 115,
+        "end": 123,
+        "text": "geometry",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 125,
+        "end": 142,
+        "text": "interconnectivity",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 148,
+        "end": 159,
+        "text": "orientation",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 429,
+        "end": 438,
+        "text": "Scaffolds",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 559,
+        "end": 582,
+        "text": "Biodegradable scaffolds",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 74,
+        "text": "scaffold architecture",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 805,
+        "end": 822,
+        "text": "scaffold porosity",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 308,
+        "end": 327,
+        "text": "tissue regeneration",
+        "labels": [
+          "APP"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 37,
+    "created_at": "2024-04-14T17:02:54.222365Z",
+    "updated_at": "2024-05-02T18:25:22.322606Z",
+    "lead_time": 610.592
+  },
+  {
+    "text": "Most biomaterials used in 3D printing can be used for the fabrication of bone models [143]. Biosensors [114], laboratory hardware [144] and highly complex bioengineered organoids and laboratory models [221] can be produced by FDM. Many laboratories have created biologically functional models composed of a wide variety of tissues such as neurons [222], kidneys [223], skeletal muscle [224], liver [225], etc. In these cases, the technology used was bioprinting, which deals with polymer gels where no melting of polymers occurs. This promising emerging technology is capable of deposition of cells and biochemical components layer by layer to create defined structures using materials, bioactive molecules and cells [255]. It should be mentioned that although most surgical tools serve a wide variety of patients, some operations may require the use of unique instruments [226]. The ability to manufacture effective surgical tools by this means also favours underdeveloped countries since it can reduce costs by more than 90% [256].",
+    "id": 20,
+    "label": [
+      {
+        "start": 92,
+        "end": 102,
+        "text": "Biosensors",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 110,
+        "end": 129,
+        "text": "laboratory hardware",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 183,
+        "end": 200,
+        "text": "laboratory models",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 155,
+        "end": 178,
+        "text": "bioengineered organoids",
+        "labels": [
+          "APP"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 38,
+    "created_at": "2024-04-14T17:08:30.164923Z",
+    "updated_at": "2024-04-25T19:23:51.488315Z",
+    "lead_time": 377.24799999999993
+  },
+  {
+    "text": "Most 3D printed biomaterials can be used for drug release of molecules such as antibiotics, growth factors, biometals, etc. [228,229,257]. The development of novel drug delivery systems and personalised medicine can be achieved effortlessly if the production technology has ease of adaptability based on the patients needs. FDM technology in which a carrier filament can be fabricated using polymers loaded with an active pharmaceutical ingredient (API), can be used to 3D print personalised tablets with modified release profiles [258] (Fig. 5).",
+    "id": 21,
+    "label": [
+      {
+        "start": 391,
+        "end": 399,
+        "text": "polymers",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 415,
+        "end": 453,
+        "text": "active pharmaceutical ingredient (API)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 479,
+        "end": 499,
+        "text": "personalised tablets",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 190,
+        "end": 211,
+        "text": "personalised medicine",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 158,
+        "end": 185,
+        "text": "novel drug delivery systems",
+        "labels": [
+          "APP"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 39,
+    "created_at": "2024-04-14T17:11:16.845922Z",
+    "updated_at": "2024-04-25T19:24:38.034822Z",
+    "lead_time": 440.76599999999996
+  },
+  {
+    "text": "PEEK has been proposed widely in oral and cranio-maxillofacial surgery, which renders possible its use for the fabrication of dental implants [218]. The technology of FDM has allowed the fabrication of medical modelling in dentistry [264]. Thus, the first patient treated with the help of FDM occurred in 1999 using a 3D printed medical model of the complex anatomy of the patients cleft palate. FDM technology has also been used in dentistry to produce dental crowns (Fig. 6) [107].",
+    "id": 22,
+    "label": [
+      {
+        "start": 433,
+        "end": 442,
+        "text": "dentistry",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 454,
+        "end": 467,
+        "text": "dental crowns",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 202,
+        "end": 232,
+        "text": "medical modelling in dentistry",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 4,
+        "text": "PEEK",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 126,
+        "end": 141,
+        "text": "dental implants",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 70,
+        "text": "oral and cranio-maxillofacial surgery",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 329,
+        "end": 394,
+        "text": "medical model of the complex anatomy of the patients cleft palate",
+        "labels": [
+          "APP"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 40,
+    "created_at": "2024-04-14T17:14:28.724648Z",
+    "updated_at": "2024-04-19T01:50:55.084426Z",
+    "lead_time": 284.285
+  },
+  {
+    "text": "Polymeric material blended with antimicrobial agents is another approach that is gaining popularity in the development of biofunctional FDM filaments. Notable work in this regard includes the development of PLA filaments featuring varying proportions of nitrofurantoin (NF) as the antimicrobial agent [265]. The antimicrobial evaluation showed that the NF release from the FDM printed sample resulted in antimicrobial performance that was sustained over seven days. PMMA and PLA mixed with gentamicin sulphate (GS) as the antimicrobial agent fabricated using FDM also showed significant antimicrobial properties [266]. Polymeric composites featuring antimicrobial metals such as zinc (Zn), copper (Cu), or silver (Ag) have also been explored for the fabrication of FDM filaments [267–270].",
+    "id": 23,
+    "label": [
+      {
+        "start": 0,
+        "end": 18,
+        "text": "Polymeric material",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 210,
+        "text": "PLA",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 254,
+        "end": 273,
+        "text": "nitrofurantoin (NF)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 466,
+        "end": 470,
+        "text": "PMMA",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 475,
+        "end": 478,
+        "text": "PLA",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 490,
+        "end": 514,
+        "text": "gentamicin sulphate (GS)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 619,
+        "end": 639,
+        "text": "Polymeric composites",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 679,
+        "end": 688,
+        "text": "zinc (Zn)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 690,
+        "end": 701,
+        "text": "copper (Cu)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 706,
+        "end": 717,
+        "text": "silver (Ag)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 650,
+        "end": 670,
+        "text": "antimicrobial metals",
+        "labels": [
+          "MAT"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 41,
+    "created_at": "2024-04-14T20:54:30.664695Z",
+    "updated_at": "2024-04-22T21:47:44.665738Z",
+    "lead_time": 26902.176000000003
+  },
+  {
+    "text": "FDM is used in engineering applications such as the production of microdevices [115,271], microfluidics [116] and electromagnetic shielding [139]. FDM is also gaining presence in automotive engineering primarily in new product prototyping which significantly decreases time to production [272]. Companies, like Porsche, use 3D printing to fabricate and reverse-engineer low-volume spare parts [273].",
+    "id": 24,
+    "label": [
+      {
+        "start": 66,
+        "end": 78,
+        "text": "microdevices",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 103,
+        "text": "microfluidics",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 114,
+        "end": 139,
+        "text": "electromagnetic shielding",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 179,
+        "end": 201,
+        "text": "automotive engineering",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 215,
+        "end": 238,
+        "text": "new product prototyping",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 39,
+        "text": "engineering applications",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 370,
+        "end": 392,
+        "text": "low-volume spare parts",
+        "labels": [
+          "APP"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 42,
+    "created_at": "2024-04-14T20:57:09.454417Z",
+    "updated_at": "2024-05-02T18:30:51.249525Z",
+    "lead_time": 272.292
+  },
+  {
+    "text": "However, the pieces manufactured with FDM have limitations like high porosity and poor mechanical properties [274]. This technology has been used, in aerospace engineering, to fabricate manufacturing tools, functional prototypes, concept models and some complex lightweight parts[238]. In most cases, the material used is UTLEM™, which is a high-strength thermoplastic [275].",
+    "id": 25,
+    "label": [
+      {
+        "start": 82,
+        "end": 108,
+        "text": "poor mechanical properties",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 77,
+        "text": "high porosity",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 150,
+        "end": 171,
+        "text": "aerospace engineering",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 186,
+        "end": 205,
+        "text": "manufacturing tools",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 228,
+        "text": "functional prototypes",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 230,
+        "end": 244,
+        "text": "concept models",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 254,
+        "end": 279,
+        "text": "complex lightweight parts",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 322,
+        "end": 328,
+        "text": "UTLEM™",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 341,
+        "end": 368,
+        "text": "high-strength thermoplastic",
+        "labels": [
+          "MAT"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 43,
+    "created_at": "2024-04-14T20:58:45.808812Z",
+    "updated_at": "2024-04-14T20:58:45.808812Z",
+    "lead_time": 94.897
+  },
+  {
+    "text": "AM technology has also been used in the construction of houses [242]. This has many benefits like increased customisation for architects, reduced construction time, reduced manpower, and construction cost [278]. In 2014, WinSun, in China, was the first architectural company that constructed a group of houses using 3D printing [279]. The selection of appropriate AM technology for construction applications is dependent on the cost, printing time, accuracy, and available materials [278]. For printing ceramics materials and concrete, contour crafting is usually used as the preferred printing technology. However, the FDM technology requires the use of polymer materials such as novel thermoplastics such as PEI, polyaryletherketone (PAEK), and polyphenylsulfone (PPSU) [242]. These high-performance thermoplastics are increasingly in demand for industrial-grade FDM construction applications, as they are a suitable, cost-effective, and lightweight alternative to some metals such as stainless steel or aluminium. FDM technology can use a printing material composed of polymers and synthetic stones [278] or Lecce stone scraps [280] to produce original industrial and building products.",
+    "id": 26,
+    "label": [
+      {
+        "start": 655,
+        "end": 672,
+        "text": "polymer materials",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 710,
+        "end": 713,
+        "text": "PEI",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 715,
+        "end": 741,
+        "text": "polyaryletherketone (PAEK)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 747,
+        "end": 771,
+        "text": "polyphenylsulfone (PPSU)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 785,
+        "end": 816,
+        "text": "high-performance thermoplastics",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 1072,
+        "end": 1080,
+        "text": "polymers",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 1085,
+        "end": 1101,
+        "text": "synthetic stones",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 1042,
+        "end": 1059,
+        "text": "printing material",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 1111,
+        "end": 1129,
+        "text": "Lecce stone scraps",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 681,
+        "end": 701,
+        "text": "novel thermoplastics",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 1156,
+        "end": 1188,
+        "text": "industrial and building products",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 848,
+        "end": 894,
+        "text": "industrial-grade FDM construction applications",
+        "labels": [
+          "APP"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 44,
+    "created_at": "2024-04-14T21:05:42.265208Z",
+    "updated_at": "2024-04-25T02:22:05.436326Z",
+    "lead_time": 783.048
+  },
+  {
+    "text": "Another interesting application of FDM is the production of acoustic devices. Absorbing or reflecting sound waves is a requirement for many industries which calls for the cost-effective fabrication of porous, cellular and metamaterials suitable to be used as acoustic liners in engines, turbofans, ventilation and a range of other applications [283, 284]. Low-cost 3D printing techniques such as FDM are vital in the development of functional acoustic devices. Although the conventional methods for the manufacture of foam and fibre like architecture are already available, their ability to customise the geometries for cellular architecture are restricted.",
+    "id": 27,
+    "label": [
+      {
+        "start": 60,
+        "end": 76,
+        "text": "acoustic devices",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 432,
+        "end": 459,
+        "text": "functional acoustic devices",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 259,
+        "end": 274,
+        "text": "acoustic liners",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 201,
+        "end": 207,
+        "text": "porous",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 209,
+        "end": 217,
+        "text": "cellular",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 620,
+        "end": 641,
+        "text": "cellular architecture",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 605,
+        "end": 615,
+        "text": "geometries",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 222,
+        "end": 235,
+        "text": "metamaterials",
+        "labels": [
+          "DES"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 45,
+    "created_at": "2024-04-14T21:08:19.004034Z",
+    "updated_at": "2024-05-02T18:54:57.635827Z",
+    "lead_time": 374.029
+  },
+  {
+    "text": "Other acoustic studies using FDM include the fabrication of a thermoplastic polyurethane (TPU) cellular absorber which resulted in high sound absorption coefficient at a targeted frequency range [239]. Huang et al. [240] on the other hand used FDM to fabricated a meta-fluid architecture inspired by cereal straws which resulted in predetermined resonance behaviour and enhanced acoustic performance. Sound attenuation of a periodic filter type architecture at the microscale, fabricated using FDM, also revealed their potential in broadband acoustic attenuation where the frequency of peak attenuation can be controlled by the distancing between adjacent meshes [241].",
+    "id": 28,
+    "label": [
+      {
+        "start": 62,
+        "end": 94,
+        "text": "thermoplastic polyurethane (TPU)",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 95,
+        "end": 112,
+        "text": "cellular absorber",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 264,
+        "end": 287,
+        "text": "meta-fluid architecture",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 424,
+        "end": 457,
+        "text": "periodic filter type architecture",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 136,
+        "end": 164,
+        "text": "sound absorption coefficient",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 346,
+        "end": 365,
+        "text": "resonance behaviour",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 379,
+        "end": 399,
+        "text": "acoustic performance",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 532,
+        "end": 562,
+        "text": "broadband acoustic attenuation",
+        "labels": [
+          "APP"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 46,
+    "created_at": "2024-04-15T08:53:00.458248Z",
+    "updated_at": "2024-04-25T02:27:35.171949Z",
+    "lead_time": 42616.60400000001
+  },
+  {
+    "text": "3D printing is also gaining popularity in the textile industry [123], for example, in the fabrication of various dresses, shoes and related products [285]. It has been demonstrated that single-face weft knitted fabric can be fabricated successfully by FDM, as shown in Fig. 11 [285]. The primary factors in the textile industry when it comes to material fabrication, are properties such as good adhesion and stability [286]. FDM prints on cotton and polyester textiles have been shown to offer excellent adhesion properties [123]. Wood flour (WF)-filled PLA composite filaments have been developed for application in the fabrication of ornaments by FDM printing [153] (Fig. 12).",
+    "id": 29,
+    "label": [
+      {
+        "start": 186,
+        "end": 217,
+        "text": "single-face weft knitted fabric",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 636,
+        "end": 645,
+        "text": "ornaments",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 311,
+        "end": 327,
+        "text": "textile industry",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 395,
+        "end": 403,
+        "text": "adhesion",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 408,
+        "end": 417,
+        "text": "stability",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 531,
+        "end": 567,
+        "text": "Wood flour (WF)-filled PLA composite",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 62,
+        "text": "textile industry",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 504,
+        "end": 512,
+        "text": "adhesion",
+        "labels": [
+          "MET"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 47,
+    "created_at": "2024-04-15T09:00:01.940158Z",
+    "updated_at": "2024-05-02T19:03:17.910586Z",
+    "lead_time": 1052.819
+  },
+  {
+    "text": "Although FDM technology is still developing, progress in printing speeds and new materials is broadening its potential applications, which range from 3D printing full scale buildings to complex human organs with nanoscale features. In biomedicine, FDM is already being trialled to manufacture scaffolds for tissue regeneration and reconstruction. 3D printing of functional organs known as bioprinting, is also rapidly advancing and offers a promising future. Research groups around the world are working on overcoming the current limitations regarding the creation of complete tissues and organs via FDM, which require effective structural architecture that also acts as a viable environment for cells. FDM is also making inroads in applications such as the fabrication of bone models, drug release in pharmacology, biosensors, laboratory hardware, organoids, laboratory models, surgical tools, dentistry, microdevices, microfluidics, electromagnetic induction shielding, automotive and aerospace engineering, occupational therapy, architecture, construction, acoustics, textile industry, personal protective equipment and many other fields are also actively harnessing the great potential of FDM. The furthest scientific advances in the field include the combination of FDM with other technologies such as HME and the use of smart materials in 4D printing to produce functional smart objects that can perform active functions, which has opened a broad range of new FDM application fields.",
+    "id": 30,
+    "label": [
+      {
+        "start": 57,
+        "end": 72,
+        "text": "printing speeds",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 235,
+        "end": 246,
+        "text": "biomedicine",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 293,
+        "end": 345,
+        "text": "scaffolds for tissue regeneration and reconstruction",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 362,
+        "end": 379,
+        "text": "functional organs",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 773,
+        "end": 784,
+        "text": "bone models",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 786,
+        "end": 814,
+        "text": "drug release in pharmacology",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 816,
+        "end": 826,
+        "text": "biosensors",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 828,
+        "end": 847,
+        "text": "laboratory hardware",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 849,
+        "end": 858,
+        "text": "organoids",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 860,
+        "end": 877,
+        "text": "laboratory models",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 879,
+        "end": 893,
+        "text": "surgical tools",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 895,
+        "end": 904,
+        "text": "dentistry",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 906,
+        "end": 918,
+        "text": "microdevices",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 920,
+        "end": 933,
+        "text": "microfluidics",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 935,
+        "end": 970,
+        "text": "electromagnetic induction shielding",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 1010,
+        "end": 1030,
+        "text": "occupational therapy",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 1032,
+        "end": 1044,
+        "text": "architecture",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 1046,
+        "end": 1058,
+        "text": "construction",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 1060,
+        "end": 1069,
+        "text": "acoustics",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 1071,
+        "end": 1087,
+        "text": "textile industry",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 1089,
+        "end": 1118,
+        "text": "personal protective equipment",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 150,
+        "end": 182,
+        "text": "3D printing full scale buildings",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 972,
+        "end": 982,
+        "text": "automotive",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 987,
+        "end": 1008,
+        "text": "aerospace engineering",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 629,
+        "end": 652,
+        "text": "structural architecture",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 194,
+        "end": 206,
+        "text": "human organs",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 1326,
+        "end": 1341,
+        "text": "smart materials",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 568,
+        "end": 595,
+        "text": "complete tissues and organs",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 212,
+        "end": 230,
+        "text": "nanoscale features",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 90,
+        "text": "new materials",
+        "labels": [
+          "MAT"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 48,
+    "created_at": "2024-04-15T09:29:40.790515Z",
+    "updated_at": "2024-05-02T19:12:21.100724Z",
+    "lead_time": 971.2389999999999
+  },
+  {
+    "text": "Fused deposition modeling (FDM) is an additive manufacturing (AM) process in which a physical object is created directly from a computer-aided design (CAD) model using layer-by-layer deposition of a feedstock plastic filament material extruded through a nozzle. This is one of the earliest types of AM processes, originally developed and marketed by Stratasys Company in United States during the early 1990s. Because of its safe and efficient operation, durability, low cost, and its ability to process production-grade engineering thermoplastics, it has become one of the most widely used AM processes in the industry for functional prototypes and low volume production.",
+    "id": 31,
+    "label": [
+      {
+        "start": 128,
+        "end": 161,
+        "text": "computer-aided design (CAD) model",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 254,
+        "end": 260,
+        "text": "nozzle",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 454,
+        "end": 464,
+        "text": "durability",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 470,
+        "end": 474,
+        "text": "cost",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 503,
+        "end": 546,
+        "text": "production-grade engineering thermoplastics",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 623,
+        "end": 644,
+        "text": "functional prototypes",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 649,
+        "end": 670,
+        "text": "low volume production",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 209,
+        "end": 234,
+        "text": "plastic filament material",
+        "labels": [
+          "MAT"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 49,
+    "created_at": "2024-04-15T10:06:12.597799Z",
+    "updated_at": "2024-04-22T22:47:07.034965Z",
+    "lead_time": 2233.621
+  },
+  {
+    "text": "Apart from the design and functional prototype application, the FDM process has received considerable attention in the research and development sector in several areas including, part quality improvement, process improvement, new materials developments, and applications in biomedical engineering, tissue engineering (TE), and tooling. This chapter gives an overview of the Stratasys FDM process, capabilities, and materials, and also presents a detailed review of research and development work undertaken over the years using FDM technology.",
+    "id": 32,
+    "label": [
+      {
+        "start": 15,
+        "end": 21,
+        "text": "design",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 46,
+        "text": "functional prototype",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 274,
+        "end": 296,
+        "text": "biomedical engineering",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 298,
+        "end": 321,
+        "text": "tissue engineering (TE)",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 327,
+        "end": 334,
+        "text": "tooling",
+        "labels": [
+          "APP"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 50,
+    "created_at": "2024-04-15T10:07:59.793944Z",
+    "updated_at": "2024-04-15T10:07:59.793944Z",
+    "lead_time": 104.812
+  },
+  {
+    "text": "FDM is a filament extrusion-based process that integrates CAD system, materials science, computer numerical control, and the extrusion process to fabricate 3D parts directly from a CAD model. In the basic FDM process, a plastic filament is drawn into a liquefier head, where the filament is heated to a semiliquid state and then extruded through a nozzle to deposit roads or beads to fill each layer of the part on to a platform in a temperature-controlled chamber. The computer-controlled head moves in X-Y plane while the platform moves in the z-direction as required by the selected layer thickness.",
+    "id": 33,
+    "label": [
+      {
+        "start": 58,
+        "end": 68,
+        "text": "CAD system",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 89,
+        "end": 115,
+        "text": "computer numerical control",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 181,
+        "end": 190,
+        "text": "CAD model",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 220,
+        "end": 227,
+        "text": "plastic",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 253,
+        "end": 267,
+        "text": "liquefier head",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 348,
+        "end": 354,
+        "text": "nozzle",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 420,
+        "end": 428,
+        "text": "platform",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 434,
+        "end": 464,
+        "text": "temperature-controlled chamber",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 470,
+        "end": 494,
+        "text": "computer-controlled head",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 524,
+        "end": 532,
+        "text": "platform",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 586,
+        "end": 601,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 51,
+    "created_at": "2024-04-15T10:10:01.147787Z",
+    "updated_at": "2024-04-15T10:10:01.147787Z",
+    "lead_time": 119.741
+  },
+  {
+    "text": "First, a CAD solid model has to be created on any CAD system, and converted into an stereo lithography (STL) format, which is a faceted approximation of the model. The STL file of the model is then preprocessed using FDM software. This preprocessing consists of several important steps including determination of part orientation on the build volume, slicing into thin horizontal layers, selection of various FDM parameters, and generation of supports. A suitable part orientation of the STL model is important to minimize or eliminate supports and improve surface finish. Depending upon the type of FDM machine used, FDM process parameters may include raster width, build style, raster angle, air gap, nozzle tip size, model temperature, etc. For each sliced layer, the preprocessing software generates tool paths or build instructions for the liquefier head to create each layer. The preprocessed file of the model and supports, called Stratasys machine language (SML) file or CMB file in some FDM machines, is then sent to the FDM machine for part building.",
+    "id": 34,
+    "label": [
+      {
+        "start": 9,
+        "end": 24,
+        "text": "CAD solid model",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 60,
+        "text": "CAD system",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 217,
+        "end": 229,
+        "text": "FDM software",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 313,
+        "end": 329,
+        "text": "part orientation",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 443,
+        "end": 451,
+        "text": "supports",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 464,
+        "end": 480,
+        "text": "part orientation",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 488,
+        "end": 497,
+        "text": "STL model",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 536,
+        "end": 544,
+        "text": "supports",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 557,
+        "end": 571,
+        "text": "surface finish",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 653,
+        "end": 665,
+        "text": "raster width",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 667,
+        "end": 678,
+        "text": "build style",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 680,
+        "end": 692,
+        "text": "raster angle",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 694,
+        "end": 701,
+        "text": "air gap",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 703,
+        "end": 718,
+        "text": "nozzle tip size",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 720,
+        "end": 737,
+        "text": "model temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 771,
+        "end": 793,
+        "text": "preprocessing software",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 845,
+        "end": 859,
+        "text": "liquefier head",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 921,
+        "end": 929,
+        "text": "supports",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 938,
+        "end": 975,
+        "text": "Stratasys machine language (SML) file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 115,
+        "text": "stereo lithography (STL) format",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 168,
+        "end": 176,
+        "text": "STL file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 979,
+        "end": 987,
+        "text": "CMB file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 996,
+        "end": 1008,
+        "text": "FDM machines",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 1030,
+        "end": 1041,
+        "text": "FDM machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 600,
+        "end": 611,
+        "text": "FDM machine",
+        "labels": [
+          "EQU"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 52,
+    "created_at": "2024-04-15T10:22:40.454578Z",
+    "updated_at": "2024-04-22T22:40:31.140509Z",
+    "lead_time": 601.8359999999999
+  },
+  {
+    "text": "The completed part is then ready to be removed from the FDM machine. Support structures are later removed by breaking them away from the part or dipping the whole model in a solution. The accuracy and precision of the part depends upon the process parameters and some high-end FDM machines offer extremely high precision and accuracy. According to Stratasys (2), the FDM process accuracy and precision is also the result of the coordination of material feed rates and liquefier head motion.",
+    "id": 35,
+    "label": [
+      {
+        "start": 69,
+        "end": 87,
+        "text": "Support structures",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 444,
+        "end": 463,
+        "text": "material feed rates",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 468,
+        "end": 489,
+        "text": "liquefier head motion",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "text": "FDM machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 277,
+        "end": 289,
+        "text": "FDM machines",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 379,
+        "end": 387,
+        "text": "accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 392,
+        "end": 401,
+        "text": "precision",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 311,
+        "end": 320,
+        "text": "precision",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 325,
+        "end": 333,
+        "text": "accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 188,
+        "end": 196,
+        "text": "accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 201,
+        "end": 210,
+        "text": "precision",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 141,
+        "text": "breaking them away from the part",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 145,
+        "end": 182,
+        "text": "dipping the whole model in a solution",
+        "labels": [
+          "POST"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 53,
+    "created_at": "2024-04-15T10:25:56.866677Z",
+    "updated_at": "2024-05-02T18:40:03.960561Z",
+    "lead_time": 928.9970000000001
+  },
+  {
+    "text": "Stratasys is the main provider, which dominates the FDM commercialized market. In 1992, the first FDM machine was named 3D Modeler. Since then, Stratasys has marketed various FDM machines: FDM1600, FDM1650, FDM2000, Prodigy Plus, FDM3000, FDM Titan, FDM Maxum, and FDM Vantage, with various sizes, build volumes, and material options. Currently, Stratasys uses the term 3D printers for its machines and uses its FDM technology in the uPrint series, Dimension series, and Fortus production series of 3D printers for direct digital manufacturing and precision rapid prototyping. In general, low-cost machines offer lower build volumes, quick set up, fewer options for materials and layer thickness, while higher cost machines provide bigger build volume, more options for materials and colors, and more options for changing layer thickness and process parameters to create parts with varying degree of accuracy and quality. For support removal, Stratasys offers two methods: soluble support technology, which dissolves the support in a water-based solution, and breakaway support technology, in which the supports are simply snapped off the final model. For more information on the latest systems, refer to the Stratasys website (3).",
+    "id": 36,
+    "label": [
+      {
+        "start": 120,
+        "end": 130,
+        "text": "3D Modeler",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 189,
+        "end": 196,
+        "text": "FDM1600",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 198,
+        "end": 205,
+        "text": "FDM1650",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 214,
+        "text": "FDM2000",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 216,
+        "end": 228,
+        "text": "Prodigy Plus",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 230,
+        "end": 237,
+        "text": "FDM3000",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 239,
+        "end": 248,
+        "text": "FDM Titan",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 250,
+        "end": 259,
+        "text": "FDM Maxum",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 265,
+        "end": 276,
+        "text": "FDM Vantage",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 434,
+        "end": 447,
+        "text": "uPrint series",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 449,
+        "end": 465,
+        "text": "Dimension series",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 471,
+        "end": 495,
+        "text": "Fortus production series",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 515,
+        "end": 543,
+        "text": "direct digital manufacturing",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 548,
+        "end": 575,
+        "text": "precision rapid prototyping",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 499,
+        "end": 510,
+        "text": "3D printers",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 619,
+        "end": 632,
+        "text": "build volumes",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 680,
+        "end": 695,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 739,
+        "end": 751,
+        "text": "build volume",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 822,
+        "end": 837,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 973,
+        "end": 999,
+        "text": "soluble support technology",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 1060,
+        "end": 1088,
+        "text": "breakaway support technology",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 926,
+        "end": 941,
+        "text": "support removal",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 109,
+        "text": "FDM machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 175,
+        "end": 187,
+        "text": "FDM machines",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 298,
+        "end": 311,
+        "text": "build volumes",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 900,
+        "end": 908,
+        "text": "accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 913,
+        "end": 920,
+        "text": "quality",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 589,
+        "end": 606,
+        "text": "low-cost machines",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 703,
+        "end": 723,
+        "text": "higher cost machines",
+        "labels": [
+          "EQU"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 54,
+    "created_at": "2024-04-15T10:59:32.289674Z",
+    "updated_at": "2024-05-02T18:52:55.921942Z",
+    "lead_time": 2219.439
+  },
+  {
+    "text": "Dimension series of FDM machines are also among the low-cost machines using ABSplus material available in many colors. They offer higher performance and more flexibility in terms of bigger build volume and support removal than uPrint. Dimension Elite machines can make finer features as they offer a minimum layer thickness of 0.178 mm. The Elite offers a build volume of 203 (cid:1) 203 (cid:1) 305 mm, two layer thickness (0.254 and 0.178 mm), and soluble support technology. Dimension 1200es Series machines offer a bigger build volume of 254 (cid:1) 254 (cid:1) 305 mm, options for two layer thickness (0.254 and 0.303 mm) and provides soluble support and breakaway support options for support removal.",
+    "id": 37,
+    "label": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "Dimension series",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 83,
+        "text": "ABSplus",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 189,
+        "end": 201,
+        "text": "build volume",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 206,
+        "end": 221,
+        "text": "support removal",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 227,
+        "end": 233,
+        "text": "uPrint",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 308,
+        "end": 323,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 356,
+        "end": 368,
+        "text": "build volume",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 408,
+        "end": 423,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 450,
+        "end": 476,
+        "text": "soluble support technology",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 341,
+        "end": 346,
+        "text": "Elite",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 526,
+        "end": 538,
+        "text": "build volume",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 590,
+        "end": 605,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 640,
+        "end": 655,
+        "text": "soluble support",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 660,
+        "end": 677,
+        "text": "breakaway support",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 690,
+        "end": 705,
+        "text": "support removal",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "text": "FDM machines",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 235,
+        "end": 259,
+        "text": "Dimension Elite machines",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 478,
+        "end": 510,
+        "text": "Dimension 1200es Series machines",
+        "labels": [
+          "EQU"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 55,
+    "created_at": "2024-04-15T11:22:15.766335Z",
+    "updated_at": "2024-05-02T18:40:42.668586Z",
+    "lead_time": 1447.3960000000002
+  },
+  {
+    "text": "The FDM process supports a wide variety of modeling materials. Current Stratasys machines allow ABSplus, ABSi, PC, PC\/ABS, PPSF, and ULTEM (3). Some older Stratasys machines allowed nylon, investment casting wax, and elastomer. All these materials are used because their melting point lies within the temperature range the FDM liquefier head allows its filament to heat to. AM users often state that material properties are the most important consideration for the FDM process (5). Therefore, the material properties that match those of the intended application of users are very important. A variety of high strength engineering materials is one of FDMs greatest strengths.",
+    "id": 38,
+    "label": [
+      {
+        "start": 96,
+        "end": 103,
+        "text": "ABSplus",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 109,
+        "text": "ABSi",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 113,
+        "text": "PC",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 115,
+        "end": 121,
+        "text": "PC\/ABS",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 123,
+        "end": 127,
+        "text": "PPSF",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 133,
+        "end": 138,
+        "text": "ULTEM",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 182,
+        "end": 187,
+        "text": "nylon",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 189,
+        "end": 211,
+        "text": "investment casting wax",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 217,
+        "end": 226,
+        "text": "elastomer",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 327,
+        "end": 341,
+        "text": "liquefier head",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 271,
+        "end": 284,
+        "text": "melting point",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 604,
+        "end": 639,
+        "text": "high strength engineering materials",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 89,
+        "text": "Stratasys machines",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 155,
+        "end": 173,
+        "text": "Stratasys machines",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 400,
+        "end": 419,
+        "text": "material properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 497,
+        "end": 516,
+        "text": "material properties",
+        "labels": [
+          "MET"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 56,
+    "created_at": "2024-04-15T11:25:00.827603Z",
+    "updated_at": "2024-04-25T20:10:10.425179Z",
+    "lead_time": 274.988
+  },
+  {
+    "text": "PPSF\/PPSU material has the high heat and chemical resistance. It is ideal for aerospace, automotive, and medical applications. It offers the highest heat resistance of any FDM thermoplastic, good mechanical strength, and resistance to petroleum and solvents. It is suitable for applications in caustic and high heat environments. Also, it is gamma, EtO, and autoclave sterilizable.",
+    "id": 39,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "PPSF\/PPSU",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 78,
+        "end": 87,
+        "text": "aerospace",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 89,
+        "end": 99,
+        "text": "automotive",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 125,
+        "text": "medical applications",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 176,
+        "end": 189,
+        "text": "thermoplastic",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 196,
+        "end": 215,
+        "text": "mechanical strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 149,
+        "end": 164,
+        "text": "heat resistance",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 60,
+        "text": "heat and chemical resistance",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 221,
+        "end": 257,
+        "text": "resistance to petroleum and solvents",
+        "labels": [
+          "MET"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 57,
+    "created_at": "2024-04-15T11:27:17.380854Z",
+    "updated_at": "2024-05-02T18:44:29.816474Z",
+    "lead_time": 312.68800000000005
+  },
+  {
+    "text": "1. Simplicity, Safety, and Ease of Use: FDM machines are safe, reliable, easy to use, and office friendly. There is no toxic material, powder handling, intense heat, or laser involved. This has been one of the main reasons for the widespread adoption of FDM systems. Parts can be handled almost immediately after fabrication. Except for support removal, almost no postprocessing is required. Maintenance cost is very low. Machines can run unattended for hours.",
+    "id": 40,
+    "label": [
+      {
+        "start": 337,
+        "end": 352,
+        "text": "support removal",
+        "labels": [
+          "POST"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 52,
+        "text": "FDM machines",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 392,
+        "end": 408,
+        "text": "Maintenance cost",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 422,
+        "end": 430,
+        "text": "Machines",
+        "labels": [
+          "EQU"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 58,
+    "created_at": "2024-04-15T11:28:26.468078Z",
+    "updated_at": "2024-05-02T18:45:17.239840Z",
+    "lead_time": 106.287
+  },
+  {
+    "text": "3. Variety of Build Styles: FDM process software allows extensive possibilities of tool path build styles used in each layer by altering appropriate process variables such as raster width, fill pattern, raster angle, and air gaps. This enables users to create internally filled solid parts or porous parts of a variety of internal architecture.",
+    "id": 41,
+    "label": [
+      {
+        "start": 28,
+        "end": 48,
+        "text": "FDM process software",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 105,
+        "text": "tool path build styles",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 175,
+        "end": 187,
+        "text": "raster width",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 189,
+        "end": 201,
+        "text": "fill pattern",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 203,
+        "end": 215,
+        "text": "raster angle",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 221,
+        "end": 229,
+        "text": "air gaps",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 322,
+        "end": 343,
+        "text": "internal architecture",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 149,
+        "end": 166,
+        "text": "process variables",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 293,
+        "end": 305,
+        "text": "porous parts",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 278,
+        "end": 289,
+        "text": "solid parts",
+        "labels": [
+          "DES"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 59,
+    "created_at": "2024-04-15T11:29:52.969476Z",
+    "updated_at": "2024-04-25T02:47:27.215703Z",
+    "lead_time": 238.075
+  },
+  {
+    "text": "5. Potential for New Materials: The simplicity of the FDM process offers the potential of introducing new materials, both polymers and composites, for the process as long as the material can be made in feedstock filament form with required processing properties. This has offered a whole new area of research in new material development for the FDM process.",
+    "id": 42,
+    "label": [
+      {
+        "start": 122,
+        "end": 130,
+        "text": "polymers",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 145,
+        "text": "composites",
+        "labels": [
+          "MAT"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 60,
+    "created_at": "2024-04-15T11:30:21.301657Z",
+    "updated_at": "2024-04-15T11:30:21.301657Z",
+    "lead_time": 27.234
+  },
+  {
+    "text": "1. Surface Finish and Accuracy: As the filament material is extruded through the circular hole of the model tip, the deposited beads have a round section. This limits the accuracy of the parts. Moreover, because of the layer-by-layer deposition process, the staircase effect on sloping or curved surfaces generally causes a grainy surface finish. However, most FDM systems provide good, acceptable accuracy and surface finish for most engineering design applications.",
+    "id": 43,
+    "label": [
+      {
+        "start": 102,
+        "end": 111,
+        "text": "model tip",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 3,
+        "end": 17,
+        "text": "Surface Finish",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "text": "Accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 171,
+        "end": 179,
+        "text": "accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 258,
+        "end": 274,
+        "text": "staircase effect",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 324,
+        "end": 345,
+        "text": "grainy surface finish",
+        "labels": [
+          "PRO"
+        ]
+      },
+      {
+        "start": 398,
+        "end": 406,
+        "text": "accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 411,
+        "end": 425,
+        "text": "surface finish",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 435,
+        "end": 466,
+        "text": "engineering design applications",
+        "labels": [
+          "APP"
+        ]
+      },
+      {
+        "start": 278,
+        "end": 285,
+        "text": "sloping",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 289,
+        "end": 304,
+        "text": "curved surfaces",
+        "labels": [
+          "DES"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 61,
+    "created_at": "2024-04-15T11:32:36.416567Z",
+    "updated_at": "2024-04-23T20:25:51.721290Z",
+    "lead_time": 151.211
+  },
+  {
+    "text": "Since FDM is an extrusion type process, the high-end FDM machines offer a number of process parameters, which allow the user to control the shape, size, and internal structure of the part to be made. This enables the user to fabricate parts ranging from fully solid to a honeycomb structure with varying part strength, surface quality, accuracy, and mechanical properties. They also affect the build time.",
+    "id": 44,
+    "label": [
+      {
+        "start": 157,
+        "end": 175,
+        "text": "internal structure",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 145,
+        "text": "shape",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 147,
+        "end": 151,
+        "text": "size",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 254,
+        "end": 265,
+        "text": "fully solid",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 271,
+        "end": 290,
+        "text": "honeycomb structure",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 319,
+        "end": 334,
+        "text": "surface quality",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 336,
+        "end": 344,
+        "text": "accuracy",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 350,
+        "end": 371,
+        "text": "mechanical properties",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 394,
+        "end": 404,
+        "text": "build time",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 304,
+        "end": 317,
+        "text": "part strength",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 65,
+        "text": "high-end FDM machines",
+        "labels": [
+          "EQU"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 62,
+    "created_at": "2024-04-15T11:34:46.969727Z",
+    "updated_at": "2024-05-02T19:10:11.188482Z",
+    "lead_time": 192.35199999999998
+  },
+  {
+    "text": "The main parameters include slice height (layer thickness), model tip diameter, model build temperature, part fill style, part interior style, raster width, raster angle, and raster air gap. A user is required to select these parameters when preprocessing the STL file on the FDM software (7). Some of these parameters are defined below.",
+    "id": 45,
+    "label": [
+      {
+        "start": 60,
+        "end": 78,
+        "text": "model tip diameter",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 80,
+        "end": 103,
+        "text": "model build temperature",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 120,
+        "text": "part fill style",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 122,
+        "end": 141,
+        "text": "part interior style",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 143,
+        "end": 155,
+        "text": "raster width",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 157,
+        "end": 169,
+        "text": "raster angle",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 175,
+        "end": 189,
+        "text": "raster air gap",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 276,
+        "end": 288,
+        "text": "FDM software",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 260,
+        "end": 268,
+        "text": "STL file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 58,
+        "text": "slice height (layer thickness)",
+        "labels": [
+          "PAR"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 63,
+    "created_at": "2024-04-15T11:35:37.108925Z",
+    "updated_at": "2024-04-22T22:42:30.390912Z",
+    "lead_time": 245.702
+  },
+  {
+    "text": "Slice height is the layer thickness at which the STL model is sliced for part building. Layer thickness refers to the distance traveled in the z-direction between successive layers, and has a direct effect on the build time and the surface quality of sloped surfaces. The value of selected slice height depends upon the type of FDM machine, model tip size, and type of FDM material used. The model tip size used on the FDM machine allows a specified layer thickness value. For example, in a FDM Vantage machine, a minimum layer thickness of 0.1778 mm can be used for a model tip size T10. Thicker layers require less build time, but with poor quality of the surface finish.",
+    "id": 46,
+    "label": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "Slice height",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 35,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 58,
+        "text": "STL model",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 88,
+        "end": 103,
+        "text": "Layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 213,
+        "end": 223,
+        "text": "build time",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 232,
+        "end": 247,
+        "text": "surface quality",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 251,
+        "end": 266,
+        "text": "sloped surfaces",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 290,
+        "end": 302,
+        "text": "slice height",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 341,
+        "end": 355,
+        "text": "model tip size",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 392,
+        "end": 406,
+        "text": "model tip size",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 450,
+        "end": 465,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 522,
+        "end": 537,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 569,
+        "end": 583,
+        "text": "model tip size",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 617,
+        "end": 627,
+        "text": "build time",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 658,
+        "end": 672,
+        "text": "surface finish",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 328,
+        "end": 339,
+        "text": "FDM machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 419,
+        "end": 430,
+        "text": "FDM machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 369,
+        "end": 381,
+        "text": "FDM material",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 491,
+        "end": 510,
+        "text": "FDM Vantage machine",
+        "labels": [
+          "EQU"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 64,
+    "created_at": "2024-04-15T11:37:54.614042Z",
+    "updated_at": "2024-04-22T22:44:13.104015Z",
+    "lead_time": 278.432
+  },
+  {
+    "text": "Model tip size is the diameter of the model material extrusion nozzle. The tip is screwed at the bottom of the liquefier head. FDM systems provide a set of tips. Each tip size allows a range of layer thickness and road width to be used. For example, a FDM Vantage S machine allows four tip sizes (T10, T12, T16, and T20) for the ABS material with a slice height ranging from 0.1270 to 0.3302 mm.",
+    "id": 47,
+    "label": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Model tip size",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 125,
+        "text": "liquefier head",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 156,
+        "end": 160,
+        "text": "tips",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 167,
+        "end": 175,
+        "text": "tip size",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 194,
+        "end": 209,
+        "text": "layer thickness",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 214,
+        "end": 224,
+        "text": "road width",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 286,
+        "end": 295,
+        "text": "tip sizes",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 329,
+        "end": 332,
+        "text": "ABS",
+        "labels": [
+          "MAT"
+        ]
+      },
+      {
+        "start": 349,
+        "end": 361,
+        "text": "slice height",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 252,
+        "end": 273,
+        "text": "FDM Vantage S machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 127,
+        "end": 138,
+        "text": "FDM systems",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 75,
+        "end": 78,
+        "text": "tip",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 69,
+        "text": "extrusion nozzle",
+        "labels": [
+          "EQU"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 65,
+    "created_at": "2024-04-15T11:39:08.918922Z",
+    "updated_at": "2024-05-02T19:04:08.964291Z",
+    "lead_time": 2614.209
+  },
+  {
+    "text": "The FDM machine uses powerful Insight software to prepare and process the STL file of part model for building on the FDM machine. Using this software, the user will open an STL file, configure the machine, orient the model, slice the model, generate supports, generate tool paths for model and supports, create a tool path file (called CMB\/SML file), and send the tool path file to the machine for part building. The CMB or SML file is a compressed file that contains all the data that the FDM machine needs to build the part. It contains data about the layers, boundary paths, and tool paths. Generating the CMB file requires the detailed steps of slicing the model, building supports, and computing tool paths. Figure 9 shows a window of Insight software.",
+    "id": 48,
+    "label": [
+      {
+        "start": 30,
+        "end": 46,
+        "text": "Insight software",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 250,
+        "end": 258,
+        "text": "supports",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 294,
+        "end": 302,
+        "text": "supports",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 313,
+        "end": 327,
+        "text": "tool path file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 336,
+        "end": 348,
+        "text": "CMB\/SML file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 364,
+        "end": 378,
+        "text": "tool path file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 417,
+        "end": 420,
+        "text": "CMB",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 424,
+        "end": 427,
+        "text": "SML",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 609,
+        "end": 617,
+        "text": "CMB file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 677,
+        "end": 685,
+        "text": "supports",
+        "labels": [
+          "DES"
+        ]
+      },
+      {
+        "start": 740,
+        "end": 756,
+        "text": "Insight software",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 74,
+        "end": 82,
+        "text": "STL file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 173,
+        "end": 181,
+        "text": "STL file",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 15,
+        "text": "FDM machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 117,
+        "end": 128,
+        "text": "FDM machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 490,
+        "end": 501,
+        "text": "FDM machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 141,
+        "end": 149,
+        "text": "software",
+        "labels": [
+          "SOF"
+        ]
+      },
+      {
+        "start": 197,
+        "end": 204,
+        "text": "machine",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 386,
+        "end": 393,
+        "text": "machine",
+        "labels": [
+          "EQU"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 66,
+    "created_at": "2024-04-15T11:42:05.565998Z",
+    "updated_at": "2024-04-25T02:53:11.731529Z",
+    "lead_time": 1474.4130000000002
+  },
+  {
+    "text": "(e) Select Build Mode: Draft mode will emphasize part build speed and normal mode will emphasize part build quality. This option is only visible for FDM Titan and FDM Vantage modelers with certain combinations of model material and slice height. Normal mode may be chosen to slightly reduce build speed and improve part quality.",
+    "id": 50,
+    "label": [
+      {
+        "start": 97,
+        "end": 115,
+        "text": "part build quality",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 149,
+        "end": 158,
+        "text": "FDM Titan",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 232,
+        "end": 244,
+        "text": "slice height",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 65,
+        "text": "part build speed",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "text": "Draft mode",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 246,
+        "end": 257,
+        "text": "Normal mode",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 315,
+        "end": 327,
+        "text": "part quality",
+        "labels": [
+          "MET"
+        ]
+      },
+      {
+        "start": 70,
+        "end": 81,
+        "text": "normal mode",
+        "labels": [
+          "PAR"
+        ]
+      },
+      {
+        "start": 163,
+        "end": 183,
+        "text": "FDM Vantage modelers",
+        "labels": [
+          "EQU"
+        ]
+      },
+      {
+        "start": 291,
+        "end": 302,
+        "text": "build speed",
+        "labels": [
+          "PAR"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 68,
+    "created_at": "2024-04-15T11:47:50.825824Z",
+    "updated_at": "2024-05-02T18:47:45.485324Z",
+    "lead_time": 543.871
+  }
+]
